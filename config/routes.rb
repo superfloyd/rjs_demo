@@ -1,5 +1,7 @@
 RjsDemo::Application.routes.draw do
-  # The priority is based upon order of creation:
+   get "tasks" => "task#map"
+
+   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
